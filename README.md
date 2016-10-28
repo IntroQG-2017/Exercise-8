@@ -1,11 +1,7 @@
 # Exercise-8: 
 
-## Due dates
-- 100 % of point total if you return your solution within 1 week (**due 7.11.2016**)
-- 85 % of point total if your return your solution within 2 weeks (**due 14.11.2016**)
-  - Detailed hints provided
-- 50 % of point total if you return your solution within 3 weeks (**due 21.11.2016**)
-   - Full solution provided
+This exercise is due by the start of class on **7.11.2016**.
+Late submissions will lose 25% of the total points per day late.
 
 ## Problem 1: 
 
