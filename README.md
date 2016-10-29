@@ -3,6 +3,17 @@
 This exercise is due by the start of class on **7.11.2016**.
 Late submissions will lose 25% of the total points per day late.
 
+## Ideas
+- Reporting measured values as mean ± std dev (or std error) - best estimate ± uncertainty
+  - Round to 1 significant figure, report mean to same range
+- Converting formulas to Python
+  - Mean
+  - Std deviation
+  - Std error
+- Visualizing uncertainty
+  - Errorbar plots
+  - Normal distribution?
+
 ## Problem 1: 
 
 ### Questions for Problem 1
