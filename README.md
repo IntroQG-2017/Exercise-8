@@ -22,6 +22,7 @@ Doing this allows you to explore how various equations work and produce useful d
 
     ![Standard error](Images/standard-error.png)<br/>
 *Equation 3. The standard error*.
+  - Of course, you should not use existing Python functions in the functions you create, other than perhaps a function for calculating the square root.
 - Each of the functions should be part of a Python script called `geo-stats.py`.
 - Within the `geo-stats.py` file, include tests that demonstrate your code is working properly using the ages measured for minerals in the five geochronological samples below.
 
@@ -73,11 +74,22 @@ Note that we are explicitly assuming here that the uncertainty is symmetric and 
     ![The normal distribution](Images/normal-distribution.png)<br/>
     *Equation 4. The normal distribution, where e is the exponential function and x is the value for which the normal distribution is calculated*.<br/><br/>
 Note that we are assuming in this case that the value of *x* in Equation 4 is a geological age, and *x*-bar would be the mean age of the sample.
-  - You should convert this equation to a Python function called `gaussian()`, and save it in your `geo-stats-problem2.py` file.
+  - You should convert this equation to a Python function called `Gaussian()`, and save it in your `geo-stats-problem2.py` file.
   - The ages for which the normal distribution should be calculated are from 0-10 Ma in increments of 0.1 Ma.
   In other words, at each of those ages you will calculate the value of the normal distribution for each sample.
-  - The resulting five normal distribution values should be plotted using Matplotlib.
-    - Formatting stuff goes here...
+2. Plot the resulting five normal distributions using Matplotlib.
+    - The normal distributions should be plotted using different colored solid lines with the `plt.plot()` function.
+    - The ages of the individual mineral ages should also be plotted as colored points along the bottom of the plot (i.e., *y* = 0).
+    - The mean age with its standard deviation should also be plotted at the maximum value of each normal distribution using the `plt.errorbar()` function.
+    The error bars should be symmetric with the value of the standard deviation as a horizontal bar.
+    - You should include a plot legend for at least the normal distribution lines, and use the same colors for each sample and type of plot item (e.g., point or line).
+    - Include axis labels and a title.
+    - All plotted values should be on the same plot, a copy of which should be included in your [answers](#answers) below.
+
+### Questions for Problem 2
+1. 
+2. 
+3. 
 
 ## Hints
 If you get stuck, have a look at the [hints for this week's exercise](https://github.com/Intro-Quantitative-Geology/Lesson-8-Basic-geostatistics/blob/master/Lesson/hints.md).
