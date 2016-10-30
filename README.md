@@ -21,15 +21,15 @@ Doing this allows you to explore how various equations work and produce useful d
 - For this problem, you should create Python functions for the following common statistical equations:
   - The **mean** or **average**
   
-    ![Mean value equation](mean.png)<br/>
+    ![Mean value equation](Images/mean.png)<br/>
 *Equation 1. The mean value*.
   - The **standard deviation**
 
-    ![Standard deviation equation](standard-deviation.png)<br/>
+    ![Standard deviation equation](Images/standard-deviation.png)<br/>
 *Equation 2. The standard deviation*.
   - The **standard deviation of the mean** or **standard error**
 
-    ![Standard error](standard-error.png)<br/>
+    ![Standard error](Images/standard-error.png)<br/>
 *Equation 3. The standard error*.
 - Each of the functions should be part of a Python script called `geo-stats.py`.
 - Within the `geo-stats.py` file, include tests that demonstrate your code is working properly using the two tables of geochronological ages below.
