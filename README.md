@@ -1,4 +1,4 @@
-# Exercise-8: Coding and visualizing geostatistics
+# Exercise 8: Coding and visualizing geostatistics
 In this week's exercise we will take our first steps toward learning how to convert equations into Python code, and visualizing some geochronological data.
 We will be using Python tools that are already familiar to us, but applying them in a slightly different way than in the earlier exercises.
 
