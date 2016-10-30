@@ -1,18 +1,9 @@
-# Exercise-8: 
+# Exercise-8: Coding and visualizing geostatistics
+In this week's exercise we will take our first steps toward learning how to convert equations into Python code, and visualizing some geochronological data.
+We will be using Python tools that are already familiar to us, but applying them in a slightly different way than in the earlier exercises.
 
 This exercise is due by the start of class on **7.11.2016**.
 Late submissions will lose 25% of the total points per day late.
-
-## Ideas
-- Reporting measured values as mean ± std dev (or std error) - best estimate ± uncertainty
-  - Round to 1 significant figure, report mean to same range
-- Converting formulas to Python
-  - Mean
-  - Std deviation
-  - Std error
-- Visualizing uncertainty
-  - Errorbar plots
-  - Normal distribution (yes)
 
 ## Problem 1: Converting math to Python
 One of the goals of this part of the course is to develop your quantitative geoscience skills, including learning how to convert mathematical equations to Python code.
@@ -32,20 +23,31 @@ Doing this allows you to explore how various equations work and produce useful d
     ![Standard error](Images/standard-error.png)<br/>
 *Equation 3. The standard error*.
 - Each of the functions should be part of a Python script called `geo-stats.py`.
-- Within the `geo-stats.py` file, include tests that demonstrate your code is working properly using the ages measured for minerals in the two geochronological samples below.
+- Within the `geo-stats.py` file, include tests that demonstrate your code is working properly using the ages measured for minerals in the five geochronological samples below.
 
-    | Sample   | Subsample ID | Age [Ma] | 
-    | -------- | ------------ | -------- |
-    | **F09**  | F09-1        | 2.01     |
-    |          | F09-2        | 1.95     |
-    |          | F09-3        | 2.38     |
-    |          | F09-4        | 2.3      |
-    |          | F09-5        | 2.0      |
-    | **BH63** | BH63-1       | 4.77     |
-    |          | BH63-2       | 5.11     |
-    |          | BH63-3       | 3.30     |
-    |          | BH63-4       | 3.34     |
-    |          | BH63-5       | 4.45     |<br/>
+    | Sample    | Subsample ID | Age [Ma] | 
+    | --------- | ------------ | -------- |
+    | **F09**   | F09-1        | 2.01     |
+    |           | F09-2        | 1.95     |
+    |           | F09-3        | 2.38     |
+    |           | F09-4        | 2.3      |
+    |           | F09-5        | 2.0      |
+    | **BH63**  | BH63-1       | 4.77     |
+    |           | BH63-2       | 5.11     |
+    |           | BH63-3       | 3.30     |
+    |           | BH63-4       | 3.34     |
+    |           | BH63-5       | 4.45     |
+    | **BH161** | BH161-1      | 8.8      |
+    |           | BH161-3      | 2.15     |
+    | **BH412** | BH412-1      | 4.74     |
+    |           | BH412-2      | 5.14     |
+    |           | BH412-3      | 5.14     |
+    |           | BH412-4      | 5.5      |
+    |           | BH412-5      | 5.1      |
+    | **BHF04** | BHF04-1      | 2.21     |
+    |           | BHF04-3      | 5.1      |
+    |           | BHF04-4      | 2.93     |
+    |           | BHF04-5      | 4.69     |<br/>
 *Table 1. Apatite (U-Th)/He thermochronometer ages from Coutand et al. (2014)*[1].
   - To input the data you can simply create lists of the ages, rather than reading a file.
   - Your tests should use your three functions to calculate the mean, standard deviation, and standard error for each set of ages.
@@ -58,10 +60,10 @@ Doing this allows you to explore how various equations work and produce useful d
 3. 
 
 ## Problem 2: Visualizing uncertainty
-
+In this problem we will continue to develop our Python mathematical and plotting skills by visualizing the calculated sample geochronological ages from Problem 1 using the *normal distribution*. 
 
 ## Hints
-If you get stuck, have a look at the [hints for this week's exercise]().
+If you get stuck, have a look at the [hints for this week's exercise](https://github.com/Intro-Quantitative-Geology/Lesson-8-Basic-geostatistics/blob/master/Lesson/hints.md).
 
 ### Footnote(s)
 [1]: [Coutand, I., Whipp, D.M., Grujic, D., Bernet, M., Fellin, M.G., Bookhagen, B., Landry, K.R., Ghalley, S.K. and Duncan, C., 2014. Geometry and kinematics of the Main Himalayan Thrust and Neogene crustal exhumation in the Bhutanese Himalaya derived from inversion of multithermochronologic data. *Journal of Geophysical Research: Solid Earth*, *119*(2), pp.1446-1481](https://dx.doi.org/10.1002/2013JB010891)
