@@ -10,15 +10,15 @@ One of the goals of this part of the course is to develop your quantitative geos
 Doing this allows you to explore how various equations work and produce useful data plots or predictions, something increasingly done by geoscience professionals.
 
 - For this problem, you should create Python functions for the following common statistical equations:
-  - The **mean** or **average**, calculated using a function you should call `mean()`.
+  - The *mean* or *average*, calculated using a function you should call `mean()`.
   
     ![Mean value equation](Images/mean.png)<br/>
 *Equation 1. The mean value, where x<sub>i</sub> is a value to be included in the mean calculation and N is the total number of values to average*.
-  - The **standard deviation**, calculated using a function you should call `stddev()`.
+  - The *standard deviation*, calculated using a function you should call `stddev()`.
 
     ![Standard deviation equation](Images/standard-deviation.png)<br/>
 *Equation 2. The standard deviation*.
-  - The **standard deviation of the mean** or **standard error**, calculated using a function you should call `stderr()`.
+  - The *standard deviation of the mean* or *standard error*, calculated using a function you should call `stderr()`.
 
     ![Standard error](Images/standard-error.png)<br/>
 *Equation 3. The standard error*.
@@ -66,11 +66,13 @@ This function is centered on the mean value of a given set of values, where its 
 Your tasks in the exercise are to:
 
 1. Use the mean and standard deviation values calculated in Problem 1 to calculate the normal distribution for each of the five samples in Table 1.
-  - Since you will use the values and functions from Problem 1 in this problem, I suggest you make a copy of your code from Problem 1 and save it in your exercise repository as `geo-stats-problem2.py`.
-  - The mathematical definition of the normal function is
+Note that we are explicitly assuming here that the uncertainty is symmetric and follows a bell-shaped distribution about the mean.
+  - Since you will use the values and functions from Problem 1 in this problem, I suggest you create a copy of your code from Problem 1 and save it in your exercise repository as `geo-stats-problem2.py`.
+  - The mathematical definition of the normal distribution function is
 
     ![The normal distribution](Images/normal-distribution.png)<br/>
-    *Equation 4. The normal distribution, where e is the exponential function and x is the value for which the normal distribution is calculated, some age within a range of ages in our case*.
+    *Equation 4. The normal distribution, where e is the exponential function and x is the value for which the normal distribution is calculated*.<br/><br/>
+Note that we are assuming in this case that the value of *x* in Equation 4 is a geological age, and *x*-bar would be the mean age of the sample.
   - You should convert this equation to a Python function called `gaussian()`, and save it in your `geo-stats-problem2.py` file.
   - The ages for which the normal distribution should be calculated are from 0-10 Ma in increments of 0.1 Ma.
   In other words, at each of those ages you will calculate the value of the normal distribution for each sample.
