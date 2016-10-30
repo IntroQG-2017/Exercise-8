@@ -56,9 +56,9 @@ Doing this allows you to explore how various equations work and produce useful d
   - The calculated values can be output to the screen using the `print()` function.
 
 ### Questions for Problem 1
-1. 
-2. 
-3. 
+1. How much do the standard deviation values vary among the samples in Table 1, and what does this tell you about the measured values?
+2. Do you observe a large difference between the standard deviation and standard error values? Is it clear why you should always indicate whether reported values are standard deviations or standard errors?
+3. Did you observe any descrepancy between the values calculated in your functions and those found using NumPy? If so, what is the cause of the difference(s)?
 
 ## Problem 2: Visualizing uncertainty
 In this problem we will continue to develop our Python mathematical and plotting skills by visualizing the calculated sample geochronological ages from Problem 1 using the *normal distribution*.
@@ -79,17 +79,19 @@ Note that we are assuming in this case that the value of *x* in Equation 4 is a 
   In other words, at each of those ages you will calculate the value of the normal distribution for each sample.
 2. Plot the resulting five normal distributions using Matplotlib.
     - The normal distributions should be plotted using different colored solid lines with the `plt.plot()` function.
-    - The ages of the individual mineral ages should also be plotted as colored points along the bottom of the plot (i.e., *y* = 0).
+    - The ages of the individual mineral ages should also be plotted as colored points along the bottom of the plot (i.e., at *y* = 0).
     - The mean age with its standard deviation should also be plotted at the maximum value of each normal distribution using the `plt.errorbar()` function.
-    The error bars should be symmetric with the value of the standard deviation as a horizontal bar.
-    - You should include a plot legend for at least the normal distribution lines, and use the same colors for each sample and type of plot item (e.g., point or line).
+    The error bars should be symmetric, at the mean value, and with the value of the standard deviation as a horizontal error bar.
+    - You should include a plot legend for the normal distribution lines, and use the same colors for each sample.
     - Include axis labels and a title.
     - All plotted values should be on the same plot, a copy of which should be included in your [answers](#answers) below.
 
-### Questions for Problem 2
-1. 
-2. 
-3. 
+### Tasks/Questions for Problem 2
+1. Add a copy of the plot your code produces in the [answers](#answers) below, and include a proper figure caption that describes the plot as if it were in a scientific journal article.
+2. In 1-2 paragraphs, discuss the following:
+- How does the Gaussian distribution change for different values of the standard deviation?
+- Using this method of visualization, is it clear which samples have larger or smaller *random errors*?
+- How much variation in age is observed in ages measured from the same sample? Does this amount of variation concern you?
 
 ## Hints
 If you get stuck, have a look at the [hints for this week's exercise](https://github.com/Intro-Quantitative-Geology/Lesson-8-Basic-geostatistics/blob/master/Lesson/hints.md).
