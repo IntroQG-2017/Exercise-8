@@ -52,7 +52,7 @@ Doing this allows you to explore how various equations work and produce useful d
 *Table 1. Apatite (U-Th)/He thermochronometer ages from Coutand et al. (2014)*[1].
   - To input the data you can simply create lists of the ages, rather than reading a file.
   - Your tests should use your three functions to calculate the mean, standard deviation, and standard error for each set of ages.
-  - In addition, you should use the NumPy functions `np.mean()`, `np.std()`, and `np.sqrt()` to calculate the mean, standard deviation, and standard error values for each age list.
+  - In addition, you should use the NumPy functions `np.mean()`, `np.std()`, and `np.sqrt()` to calculate the mean, standard deviation, and standard error values for each age list, and compare those values to the values found using your functions.
   - The calculated values can be output to the screen using the `print()` function.
 
 ### Questions for Problem 1
