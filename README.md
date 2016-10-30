@@ -89,9 +89,9 @@ Note that we are assuming in this case that the value of *x* in Equation 4 is a 
 ### Tasks/Questions for Problem 2
 1. Add a copy of the plot your code produces in the [answers](#answers) below, and include a proper figure caption that describes the plot as if it were in a scientific journal article.
 2. In 1-2 paragraphs, discuss the following:
-- How does the Gaussian distribution change for different values of the standard deviation?
-- Using this method of visualization, is it clear which samples have larger or smaller *random errors*?
-- How much variation in age is observed in ages measured from the same sample? Does this amount of variation concern you?
+  - How does the Gaussian distribution change for different values of the standard deviation?
+  - Using this method of visualization, is it clear which samples have larger or smaller *random errors*?
+  - How much variation in age is observed in ages measured from the same sample? Does this amount of variation concern you?
 
 ## Hints
 If you get stuck, have a look at the [hints for this week's exercise](https://github.com/Intro-Quantitative-Geology/Lesson-8-Basic-geostatistics/blob/master/Lesson/hints.md).
