@@ -10,15 +10,15 @@ One of the goals of this part of the course is to develop your quantitative geos
 Doing this allows you to explore how various equations work and produce useful data plots or predictions, something increasingly done by geoscience professionals.
 
 - For this problem, you should create Python functions for the following common statistical equations:
-  - The **mean** or **average**
+  - The **mean** or **average**, calculated using a function you should call `mean()`.
   
     ![Mean value equation](Images/mean.png)<br/>
 *Equation 1. The mean value, where x<sub>i</sub> is a value to be included in the mean calculation and N is the total number of values to average*.
-  - The **standard deviation**
+  - The **standard deviation**, calculated using a function you should call `stddev()`.
 
     ![Standard deviation equation](Images/standard-deviation.png)<br/>
 *Equation 2. The standard deviation*.
-  - The **standard deviation of the mean** or **standard error**
+  - The **standard deviation of the mean** or **standard error**, calculated using a function you should call `stderr()`.
 
     ![Standard error](Images/standard-error.png)<br/>
 *Equation 3. The standard error*.
@@ -60,7 +60,17 @@ Doing this allows you to explore how various equations work and produce useful d
 3. 
 
 ## Problem 2: Visualizing uncertainty
-In this problem we will continue to develop our Python mathematical and plotting skills by visualizing the calculated sample geochronological ages from Problem 1 using the *normal distribution*. 
+In this problem we will continue to develop our Python mathematical and plotting skills by visualizing the calculated sample geochronological ages from Problem 1 using the *normal distribution*.
+The normal distribution is a mathematical function with a bell shape, also known as the *Gauss function* or *Gaussian*.
+This function is centered on the mean value of a given set of values, where its value is greatest, and its value decreases away from the mean in what is hopefully a familiar form.
+Your tasks in the exercise are to:
+
+1. Use the mean and standard deviation values calculated in Problem 1 to calculate the normal distribution for each of the five samples in Table 1.
+  - The mathematical definition of the normal function is
+
+    ![The normal distribution](Images/normal-distribution.png)<br/>
+    *Equation 4. The normal distribution, where e is the exponential function and x is the value for which the normal distribution is calculated, some age within a range of ages in our case.
+  - 
 
 ## Hints
 If you get stuck, have a look at the [hints for this week's exercise](https://github.com/Intro-Quantitative-Geology/Lesson-8-Basic-geostatistics/blob/master/Lesson/hints.md).
