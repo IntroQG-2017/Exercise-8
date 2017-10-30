@@ -94,7 +94,7 @@ Note that we are explicitly assuming here that the uncertainty is symmetric and 
     - How much variation in age is observed in ages measured from the same sample? Does this amount of variation concern you?
 
 ## Hints
-If you get stuck, have a look at the [hints for this week's exercise](https://github.com/Intro-Quantitative-Geology/Lesson-8-Basic-geostatistics/blob/master/Lesson/hints.md).
+If you get stuck, have a look at the [hints for this week's exercise](https://introqg.github.io/2017/lessons/L8/exercise-8-hints.html).
 
 ### Footnote(s)
 [1]: [Coutand, I., Whipp, D.M., Grujic, D., Bernet, M., Fellin, M.G., Bookhagen, B., Landry, K.R., Ghalley, S.K. and Duncan, C., 2014. Geometry and kinematics of the Main Himalayan Thrust and Neogene crustal exhumation in the Bhutanese Himalaya derived from inversion of multithermochronologic data. *Journal of Geophysical Research: Solid Earth*, *119*(2), pp.1446-1481](https://dx.doi.org/10.1002/2013JB010891)
