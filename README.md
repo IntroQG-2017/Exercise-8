@@ -68,14 +68,14 @@ Your tasks in the exercise are to:
 
 1. Use the mean and standard deviation values calculated in Problem 1 to calculate the normal distribution for each of the five samples in Table 1.
 Note that we are explicitly assuming here that the uncertainty is symmetric and follows a bell-shaped distribution about the mean.
-  - Since you will use the values and functions from Problem 1 in this problem, I suggest you create a copy of your code from Problem 1 and save it in your exercise repository as `geo-stats-problem2.py`.
-  - The mathematical definition of the normal distribution function is
+    - Since you will use the values and functions from Problem 1 in this problem, I suggest you create a copy of your code from Problem 1 and save it in your exercise repository as `geo-stats-problem2.py`.
+    - The mathematical definition of the normal distribution function is
 
-    ![The normal distribution](Images/normal-distribution.png)<br/>
-    *Equation 4. The normal distribution, where e is the exponential function and x is the value for which the normal distribution is calculated*.<br/><br/>
-Note that we are assuming in this case that the value of *x* in Equation 4 is a geological age, and *x*-bar would be the mean age of the sample.
-  - You should convert this equation to a Python function called `Gaussian()`, and save it in your `geo-stats-problem2.py` file.
-  - The ages for which the normal distribution should be calculated are from 0-10 Ma in increments of 0.1 Ma.
+        ![The normal distribution](Images/normal-distribution.png)<br/>
+        *Equation 4. The normal distribution, where e is the exponential function and x is the value for which the normal distribution is calculated*.<br/><br/>
+    Note that we are assuming in this case that the value of *x* in Equation 4 is a geological age, and *x*-bar would be the mean age of the sample.
+    - You should convert this equation to a Python function called `Gaussian()`, and save it in your `geo-stats-problem2.py` file.
+    - The ages for which the normal distribution should be calculated are from 0-10 Ma in increments of 0.1 Ma.
   In other words, at each of those ages you will calculate the value of the normal distribution for each sample.
 2. Plot the resulting five normal distributions using Matplotlib.
     - The normal distributions should be plotted using different colored solid lines with the `plt.plot()` function.
@@ -89,9 +89,9 @@ Note that we are assuming in this case that the value of *x* in Equation 4 is a 
 ### Tasks/Questions for Problem 2
 1. Add a copy of the plot your code produces in the [answers](#answers) below, and include a proper figure caption that describes the plot as if it were in a scientific journal article.
 2. In 1-2 paragraphs, discuss the following:
-  - How does the Gaussian distribution change for different values of the standard deviation?
-  - Using this method of visualization, is it clear which samples have larger or smaller *random errors*?
-  - How much variation in age is observed in ages measured from the same sample? Does this amount of variation concern you?
+    - How does the Gaussian distribution change for different values of the standard deviation?
+    - Using this method of visualization, is it clear which samples have larger or smaller *random errors*?
+    - How much variation in age is observed in ages measured from the same sample? Does this amount of variation concern you?
 
 ## Hints
 If you get stuck, have a look at the [hints for this week's exercise](https://github.com/Intro-Quantitative-Geology/Lesson-8-Basic-geostatistics/blob/master/Lesson/hints.md).
